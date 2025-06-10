@@ -16,3 +16,6 @@ del mismo, se compara segun la forma del arreglo y la cantidad de datos.
 
 Y la carpeta de Analisis general contiene los gráficos con imagenes de todos los algoritmos según el tipo de orden de lo datos, y variando entre los más rápidos y 
 ignorando los más lentos
+
+Finalmente, evaluacion de datos y datos contienen los algoritmos de creacion de vectores y los codigos que usamos para obtener los valores, el cual iteramos varias veces y con muchos datos,
+obteniendo así todos nuestros datos.
