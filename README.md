@@ -3,7 +3,9 @@
 Alumnos
 
 Pablo Esteban Villagrán Hermanns 
+
 Benjamín Ignacio Diaz Ulloa 
+
 Martin Alexander Tapia Medina 
 
 Descripcion del repositorio:
