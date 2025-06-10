@@ -22,6 +22,11 @@ realizar la división de ambos lados del pivote (se eligió la mitad del arreglo
 esto evita realizar muchas operaciones complejas y salvar en memoria y tiempo,
 por lo que se ve una gran diferencia de tiempo entre cada implementación. 
 */
+#include <vector>
+#include <iostream>
+#include <stack>
+#include<cstdint>
+using namespace std;
 
 void quick_sort_recursivo(vector<int32_t>& vec, int inicio, int fin){ //vec,0,size-1
 	int temp;

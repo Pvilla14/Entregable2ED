@@ -6,6 +6,9 @@ se repite este proceso varias veces hasta que solamente quedan arreglos de un el
 Cuando se tienen los arreglos simples, se empiezan a combinar (mergear), haciendo comparaciones mientras combina los elementos de cada mitad en un arreglo más grande, 
 repitiendo este proceso hasta que se consigue el arreglo original ordenado. 
 */
+#include <vector>
+
+using namespace std;
 
 vector<int> merge(const std::vector<int>& A, const std::vector<int>& B) {
     vector<int> C;

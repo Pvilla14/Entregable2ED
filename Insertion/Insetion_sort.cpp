@@ -6,6 +6,9 @@ correcta del segmento ordenado mediante la comparación con sus elementos, bási
 asumimos el primer elemento como ordenado entonces pasamos al siguiente, si es mayor entonces seguimos sino lo movemos a donde corresponde
 comparando con nuestra sección ya ordenada (seria ahora el primer elemento intercambiando posición con nuestro primer elemento original) y seguimos hasta que quede todo ordenado. 
 */
+#include <vector>
+
+using namespace std;
 
 vector<int> insertion_sort(vector<int> vec){
 	int temp;

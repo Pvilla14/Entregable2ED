@@ -7,22 +7,11 @@ el elemento de la raíz es el mínimo y así la propiedad debe cumplirse recursi
 en un Max Heap seria al revés, una vez sabido esto Heap sort  podríamos decir que Heap sort funciona como una 
 optimización de selección sort en la que podemos encontrar y mover el elemento mayor en menor tiempo. 
 */
+#include <vector>
 
-vector<int> merge_sort(const std::vector<int>& A) {
-    int size = A.size();
-    if (size < 2) {
-        return A;
-    }
-    //copiamos la mitad del vector en uno y la otra mitad en el otro, no importa si son pares o impares
-    int mid = size / 2;
-    vector<int> left(A.begin(), A.begin() + mid);
-    vector<int> right(A.begin() + mid, A.end());
-    //ordenamos cada uno de manera recursiva
-    left = merge_sort(left);
-    right = merge_sort(right);
+using namespace std;
 
-    return merge(left, right);
-}
+
 
 void heapify(vector<int>& vec, int n, int i){
 

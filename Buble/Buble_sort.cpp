@@ -10,6 +10,9 @@ si el elemento siguiente es mayor al elemento previo se intercambian los 2:
 Este algoritmo continúa hasta que no ocurra ningún intercambio, 
 lo logra realizando una última pasada revisando que cada número esté en su lugar. 
 */
+#include <vector>
+
+using namespace std;
 
 vector<int> buble_sort(vector<int> vec){
     bool cambio = true;

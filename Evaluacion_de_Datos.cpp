@@ -1,3 +1,23 @@
+#include<iostream>
+#include<vector>
+#include<numeric>
+#include<sstream>
+#include<time.h>
+#include<string>
+#include<string.h>
+#include<cstdlib> 
+#include<ctime>
+#include<chrono>
+#include<fstream>
+#include<cstdint>
+#include<stack>
+#include<random>
+#include<climits>
+#include<algorithm>
+
+using namespace std;
+
+
 int main() {
 	srand(time(0));
 	/*int size = 500000;

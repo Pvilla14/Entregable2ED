@@ -37,6 +37,9 @@ ya que eso toma otra iteración de tiempo “k”, y en vez de eso,
 nosotros ordenamos el arreglo simplemente con el arreglo de índices y 
 basándonos en la cantidad que debemos agregar cada valor. 
 */
+#include <vector>
+
+using namespace std;
 
 vector<int> counting_sort(vector<int> vec){
     int max = 0;

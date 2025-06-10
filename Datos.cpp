@@ -1,4 +1,21 @@
 //-----Creacion de archivos-----
+#include<iostream>
+#include<vector>
+#include<numeric>
+#include<sstream>
+#include<time.h>
+#include<string>
+#include<string.h>
+#include<cstdlib> 
+#include<ctime>
+#include<chrono>
+#include<fstream>
+#include<cstdint>
+#include<stack>
+#include<random>
+#include<climits>
+
+using namespace std;
 
 void generarArchivo(const std::string& nombreArchivo, int megabytes) {
     const int bytesPorMB = 1024 * 1024;
